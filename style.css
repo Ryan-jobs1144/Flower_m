@@ -802,9 +802,10 @@ body {
     border-radius: 5px; /* Bordas arredondadas */
     cursor: pointer; /* Cursor de mão para indicar que é clicável */
     transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
-    position: absolute; /* Posiciona o botão fora do fluxo */
-    top: -90px; /* Distância do topo */
-    left: 320px; /* Posiciona ao lado direito do envelope */
+    position: absolute;
+    left: 20%; /* Define a posição horizontal do botão, 20% da largura da tela */
+    top: 50%; /* Centraliza o botão verticalmente */
+    transform: translateY(-10%);
   }
   .my-button:hover {
     background-color: #f8ad9d; /* Cor do botão quando o mouse passar sobre ele */
